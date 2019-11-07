@@ -1,9 +1,10 @@
 {
   "name": "Chrome DevTools Protocol",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CDP of debug page",
   "main": "index.js",
   "dependencies": {
+    "chrome-launcher": "^0.12.0",
     "chrome-remote-interface": "^0.28.0"
   },
   "devDependencies": {},
@@ -15,7 +16,7 @@
     "url": "git+https://github.com/lewiscutey/CDP.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "lewis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lewiscutey/CDP/issues"
